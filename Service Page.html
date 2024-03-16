@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <style>
+          body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(to bottom right,#68057B,#360140);
+}
+
+h1 {
+  font-size: 50rem;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+p {
+  font-size: 15rem;
+  font-weight: 400;
+  color: #777;
+  line-height:1.5;
+}
+        
+        .service-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+         .service-image {
+            width: 350px;
+            height: 350px;
+            margin-bottom: 50px;
+            border-radius: 50%; /* To make the image circular */
+            background-color: transparent;
+            image-rendering: pixelated; /* To keep the sharpness of the image */
+            overflow: hidden; /* To hide the excess part of the image */
+        }
+        .service-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain; /* To maintain the aspect ratio of the image */
+        }
+        .service-info {
+            text-align: center;
+            font-size: 25px;
+            color: #777;
+        }
+        a {
+            font-size: 45px;
+}
+    </style>
+</head>
+<body>
+    <ul>
+        <li class="service-item">
+            <div class="service-image">
+                <img src="https://cdn-icons-png.flaticon.com/512/344/344522.png" alt="SEO">
+            </div>
+            <a href="https://wa.me/7977357446?text=I'm%20interested%20in%20your%20SEO%20service.">Search Engine Optimization</a>
+            <p class="service-info">"Elevate your online presence with our professional Search Engine Optimization (SEO) services. Our tailored strategies enhance website visibility, driving organic traffic and improving search engine rankings. Stay ahead of competitors with targeted keywords, compelling content, and technical optimization. Our experienced team ensures your website achieves its full potential, maximizing conversions and ROI. Let us help you dominate search results and connect with your target audience effectively. Take the first step towards online success with our comprehensive SEO solutions."</p>
+        </li>
+        <li class="service-item">
+            <div class="service-image">
+                <img src="https://www.freeiconspng.com/uploads/ppc-icon-12.jpg" alt="PPC">
+            </div>
+            <a href="https://wa.me/7977357446?text=I'm%20interested%20in%20your%20PPC%20service.">Pay-Per-Click (PPC) Advertising</a>
+            <p class="service-info">"Supercharge your online marketing with Pay-Per-Click (PPC) Advertising. Reach your target audience instantly, drive website traffic, and maximize ROI with our expertly managed campaigns. Harness the power of targeted keywords, compelling ad copy, and strategic bidding to achieve your business goals efficiently. Let us optimize your PPC strategy for optimal performance and results. Start generating leads and increasingconversions today with our tailored PPC solutions."</p>
+        </li>
+        <li class="service-item">
+            <div class="service-image">
+                <img src="https://e7.pngegg.com/pngimages/926/564/png-clipart-digital-marketing-social-media-marketing-marketing-strategy-social-media-search-engine-optimization-company-thumbnail.png">
+            </div>
+            <a href="https://wa.me/7977357446?text=I'm%20interested%20in%20your%20Social%20Media%20service.">Social Media Marketing</a>
+            <p class="service-info">"Supercharge your brand's online presence with our dynamic Social Media Marketing (SMM) solutions. Engage and captivate your audience across platforms, driving meaningful interactions and fostering brand loyalty. Our expert team crafts compelling content, executes targeted campaigns, and analyzes performance to ensure maximum impact. Amplify your reach, boost conversions, and stay ahead in the competitive social landscape. Let us elevate your brand's visibility and influence through strategic SMM strategies tailored to your unique goals."</p>
+        </li>
+        <li class="service-item">
+            <div class="service-image">
+                <img src="https://www.pngfind.com/pngs/b/167-1678685_email-marketing-clipart-transparent-email-metrics-hd-png.png" alt="Email">
+            </div>
+            <a href="https://wa.me/7977357446?text=I'm%20interested%20in%20your%20Email%20service.">Email Marketing</a>
+            <p class="service-info">"Unlock the power of personalized communication with our Email Marketing services. Engage your audience with tailored messages, exclusive offers, and captivating content. Our expertly crafted campaigns drive conversions, nurture leads, and foster lasting customer relationships.With precise targeting and detailed analytics, we ensure every email delivers results. Let us optimize your email strategy to maximize ROI and amplify your brand's reach. Elevate your marketing efforts with effective,data-driven Email Marketing solutions."</p>
+        </li>
+        <li class="service-item">
+            <div class="service-image">
+                <img src="https://g2stechnology.com/wp-content/uploads/2023/06/Content-Marketing-Services.png" alt="Content">
+            </div>
+            <a href="https://wa.me/7977357446?text=I'm%20interested%20in%20your%20Content%20Marketing%20service.">Content Marketing</a>
+            <p class="service-info">"Transform your brand's narrative with our Content Marketing expertise. Craft compelling stories, informative articles, and engaging visuals to captivate your audience and drive action. Our strategic approach ensures your content resonates with your target audience, building trust and loyalty. From blog posts to videos, we create valuable assets that educate, entertain, and inspire. Let us elevate your brand's authority and visibility through impactful Content Marketing strategies tailored to your unique goals and audience."</p>
+        </li>
+    </ul>
+    <script>
+        function openWhatsAppChat(service) {
+            var message = "I'm interested in your " + service + " service.";
+            var url = "https://wa.me/7977357446?text=" + encodeURIComponent(message);
+            window.open(url, "_blank");
+        }
+    </script>
+</body>
+</html>
